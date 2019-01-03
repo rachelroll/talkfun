@@ -52,3 +52,9 @@ $res = Talkfun::liveGet(1861102,$expire = 3600)
 }
 
 ```
+
+### 参考
+[欢拓云WEB-API](https://open.talk-fun.com/docs/api/)
+
+### License
+MIT
