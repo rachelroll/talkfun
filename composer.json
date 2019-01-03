@@ -1,0 +1,30 @@
+{
+    "name": "rachel/talkfun-sdk",
+    "description": "欢拓云直播WEB API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rachel",
+            "email": "hai30@163.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.5",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rachel\\TalkfunSdk\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rachel\\TalkfunSdk\\ServiceProvider"
+            ],
+            "aliases": {
+                "Talkfun": "Rachel\\TalkfunSdk\\Facades\\Talkfun"
+            }
+        }
+    }
+}
