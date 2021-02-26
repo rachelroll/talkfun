@@ -1,6 +1,6 @@
 <?php
 
-namespace Rachel\Facades;
+namespace Rachel\TalkfunSDK\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

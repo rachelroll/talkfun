@@ -1,5 +1,5 @@
 <?php
-namespace Rachel\Exceptions;
+namespace Rachel\TalkfunSDK\Exceptions;
 use Exception;
 
 class MTCloudException extends Exception

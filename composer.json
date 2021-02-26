@@ -17,16 +17,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Rachel\\": "src"
+            "Rachel\\TalkfunSDK\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Rachel\\ServiceProvider"
+                "Rachel\\TalkfunSDK\\ServiceProvider"
             ],
             "aliases": {
-                "Talkfun": "Rachel\\Facades\\Talkfun"
+                "Talkfun": "Rachel\\TalkfunSDK\\Facades\\Talkfun"
             }
         }
     }
