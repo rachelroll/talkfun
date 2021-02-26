@@ -23,10 +23,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rachel\\TalkfunSdk\\ServiceProvider"
+                "Rachel\\ServiceProvider"
             ],
             "aliases": {
-                "Talkfun": "Rachel\\TalkfunSdk\\Facades\\Talkfun"
+                "Talkfun": "Rachel\\Facades\\Talkfun"
             }
         }
     }

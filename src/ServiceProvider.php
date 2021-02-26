@@ -1,6 +1,6 @@
 <?php
 
-namespace Rachel\TalkfunSdk;
+namespace Rachel;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

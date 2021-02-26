@@ -1,6 +1,6 @@
 <?php
 
-namespace Rachel\TalkfunSdk\Tests;
+namespace Rachel\Tests;
 
 use PHPUnit\Framework\TestCase;
 

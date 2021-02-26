@@ -1,5 +1,5 @@
 <?php
-namespace Rachel\TalkfunSdk;
+namespace Rachel;
 
 /**
  *   欢拓语音视频服务开放接口SDK
