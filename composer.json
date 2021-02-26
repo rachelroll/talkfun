@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rachel\\TalkfunSdk\\": "src"
+            "Rachel\\": "src"
         }
     },
     "extra": {
